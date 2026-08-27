@@ -14,13 +14,13 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  const { title } = req.body;
+  const { title, priority } = req.body;
 
   if (!title || typeof title !== 'string' || !title.trim()) {
     return res.status(400).json({ error: 'title is required' });
   }
 
-  const task = { id: nextId++, title: title.trim(), done: false };
+  const task = { id: nextId++, title: title.trim(), done: false, priority: priority || 'medium' };
   tasks.push(task);
   res.status(201).json(task);
 });
