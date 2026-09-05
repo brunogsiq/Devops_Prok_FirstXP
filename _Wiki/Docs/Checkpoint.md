@@ -1,3 +1,9 @@
+# Atenção
+
+As branchs de conflito e prática foram deletas, se relevante será necessário recriá-las
+
+A deleção foi realizada para que o projeto fique limpo para as próximas etapas
+
 # Checkpoint — DevOps Task Manager Lab
 
 > Documento de retomada. Escrito para que qualquer sessão nova (ou você, relendo depois)
