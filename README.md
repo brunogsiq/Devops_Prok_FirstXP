@@ -40,7 +40,7 @@ npm test
 ## Progresso da trilha
 
 - [x] **Fase 1** — Aplicação local: frontend + API Node.js (`GET/POST/PUT/DELETE /tasks`)
-- [ ] Fase 2 — Git/GitHub aprofundado
+- [x] Fase 2 — Git/GitHub aprofundado - (concluída em 27/08/2026)
 - [ ] Fase 3 — Linux
 - [ ] Fase 4 — Docker
 - [ ] Fase 5 — Docker Compose + PostgreSQL
@@ -52,3 +52,6 @@ npm test
 - [ ] Fase 11 — Observabilidade (Prometheus/Grafana)
 - [ ] Fase 12 — Kubernetes / Helm
 - [ ] Fase 13 — DevSecOps / SRE
+
+
+Mensagem teste - Deverá ser apagada após documentação completa
